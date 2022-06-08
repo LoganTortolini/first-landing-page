@@ -17,9 +17,11 @@ ul {
     /* this removes the dots on the list items*/
     list-style-type: none;
     display: flex;
-    gap: 2vh;
+    gap: 2em;
     margin: 0;
     padding: 0;
+    gap: 16vh;
+    justify-content: center;
 }
 
 a , p, h1 {
@@ -35,10 +37,27 @@ h1 {
     width: 350px;
 }
 
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 36px;
+}
+
+h3 {
+    display: flex;
+    margin-top: 0;
+    font-size: 24px;
+    align-self: flex-end;
+    max-width: fit-content;
+    margin-right: 17em;
+}
+
 img {
     display: flex;
     align-self: flex-end;
-    border-radius: 2vh;
+    border-radius: 1.5em;
     max-width: 50%;
     
 }
@@ -51,13 +70,19 @@ button {
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
-    font-size: 2vh;
+    font-size: 2.5vh;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: .75em;
 }
 
 p {
     max-width: auto ;
+}
+
+li {
+    max-width: 16vh;
+    text-align: center;
+    gap: 16vh;
 }
 
 .logo {
@@ -74,4 +99,55 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.images {
+    display: flex;
+    padding: .5em;
+    gap: 16vh;
+    justify-content: center;
+    align-items: center;
+}
+.images img {
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.info {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtext ul {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1f2937;
+    word-wrap: normal;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+}
+
+.quote p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+    max-width: 900px;
+    margin-bottom: 0;
 }
