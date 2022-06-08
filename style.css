@@ -12,6 +12,15 @@ header {
     padding-left: 15vh;
     padding-right: 15vh;
 }
+footer {
+    color: #f9f9f8;
+    background-color: #1f2937;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
 
 ul {
     /* this removes the dots on the list items*/
@@ -20,7 +29,6 @@ ul {
     gap: 2em;
     margin: 0;
     padding: 0;
-    gap: 16vh;
     justify-content: center;
 }
 
@@ -82,7 +90,6 @@ p {
 li {
     max-width: 16vh;
     text-align: center;
-    gap: 16vh;
 }
 
 .logo {
@@ -122,6 +129,10 @@ li {
     flex-direction: column;
 }
 
+.info ul{
+    gap: 16vh;
+}
+
 .subtext ul {
     text-decoration: none;
     font-size: 18px;
@@ -150,4 +161,43 @@ li {
     color: #1f2937;
     max-width: 900px;
     margin-bottom: 0;
+}
+
+.action {
+    padding: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 1em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.action button {
+    border-color: white;
+    border-radius: 8px;
+    width: 120px;
+    border-width: 2px;
+}
+
+.action h4 {
+    color: #f9f9f8;
+    font-size: 36px;
+    margin-bottom: 0;
+    margin-top: 32px;
+}
+
+.action p {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
